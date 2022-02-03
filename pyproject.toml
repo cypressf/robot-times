@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "robot-times"
+version = "0.1.0"
+description = ""
+authors = ["Cypress Frankenfeld <iamcypress@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+altair = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
